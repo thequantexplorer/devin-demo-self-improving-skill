@@ -1,9 +1,20 @@
 {
-  "report": "daily_revenue",
-  "columns": [
-    { "key": "day", "label": "Day", "type": "date" },
-    { "key": "orders", "label": "Orders", "type": "int" },
-    { "key": "grossCents", "label": "Gross", "type": "money" },
-    { "key": "refundCents", "label": "Refunds", "type": "money" }
-  ]
+  "reports": {
+    "daily_revenue": {
+      "columns": [
+        { "key": "day", "label": "Day", "type": "date" },
+        { "key": "orders", "label": "Orders", "type": "int" },
+        { "key": "grossCents", "label": "Gross", "type": "money" },
+        { "key": "refundCents", "label": "Refunds", "type": "money" }
+      ]
+    },
+    "weekly_revenue": {
+      "columns": [
+        { "key": "week", "label": "Week", "type": "date" },
+        { "key": "orders", "label": "Orders", "type": "int" },
+        { "key": "grossCents", "label": "Gross", "type": "money" },
+        { "key": "refundCents", "label": "Refunds", "type": "money" }
+      ]
+    }
+  }
 }
