@@ -1,0 +1,9 @@
+{
+  "report": "daily_revenue",
+  "columns": [
+    { "key": "day", "label": "Day", "type": "date" },
+    { "key": "orders", "label": "Orders", "type": "int" },
+    { "key": "grossCents", "label": "Gross", "type": "money" },
+    { "key": "refundCents", "label": "Refunds", "type": "money" }
+  ]
+}

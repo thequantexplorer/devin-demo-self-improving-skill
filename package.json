@@ -1,0 +1,11 @@
+{
+  "name": "acme-reports",
+  "version": "1.8.0",
+  "private": true,
+  "description": "Finance reporting: daily revenue, refunds and MRR CSV/markdown reports",
+  "scripts": {
+    "codegen": "node scripts/codegen.js",
+    "report": "node src/cli.js",
+    "test": "node --test"
+  }
+}
