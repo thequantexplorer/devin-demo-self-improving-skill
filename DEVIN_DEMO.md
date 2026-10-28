@@ -1,6 +1,6 @@
 # Devin demo: Self-improving skill
 
-**What it shows:** Compounding team knowledge. Devin hits repo-specific quirks, solves them, and writes a repo skill so the next session gets it right the first time.
+**What it shows:** The tests fail until you know two setup quirks. Devin works them out, adds the feature, and writes a repo skill so later sessions set up correctly.
 
 **Needs:** GitHub only
 
